@@ -477,6 +477,17 @@ section { position: relative; }
   .footer__grid { grid-template-columns: 1fr; }
   .footer__bottom { flex-direction: column; text-align: center; }
   .hero__stats { gap: 24px; }
+  /* --- Optimización móvil --- */
+  .brand-float { display: none; }                                   /* evita que tape el contenido al hacer scroll */
+  .field input, .field select, .field textarea { font-size: 16px; } /* evita el auto-zoom en iOS */
+  .hamburger { padding: 11px; margin-right: -4px; }                 /* área de toque ~44px */
+  .lang button { padding: 7px 12px; }                               /* toque más cómodo */
+  .hero__logo { width: min(240px, 66%); margin-bottom: 16px; }
+  .topbar .container { min-height: 34px; }
+  .topbar__badge { font-size: .68rem; }
+  .cta-band__feats { gap: 16px; flex-direction: column; align-items: center; }
+  .why__media { min-height: 300px; }
+  .svc-detail__media { min-height: 220px; }
 }
 @media (max-width: 760px) {
   .logo img { height: 46px; max-width: 200px; }
@@ -486,4 +497,12 @@ section { position: relative; }
   .trust__grid { grid-template-columns: repeat(2, 1fr); }
   .form-card, .why__media { padding: 22px; }
   .wa-float { width: 54px; height: 54px; bottom: 18px; right: 18px; }
+  .hero__inner { padding: 54px 0; }
+  .hero h1 { font-size: 1.95rem; }
+  .hero p.lead { font-size: 1.05rem; }
+  .page-hero { padding: 60px 0; }
+  .section { padding: 48px 0; }
+  .section-head { margin-bottom: 32px; }
+  .btn--lg { padding: 15px 24px; font-size: 1rem; }
+  .container { padding: 0 16px; }
 }

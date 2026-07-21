@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64" role="img" aria-label="Seal Pro Paving & Sealcoating">
+  <defs>
+    <linearGradient id="skyw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#87CEEB"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="2" y="6" width="52" height="52" rx="12" fill="#ffffff"/>
+    <path d="M14 52 L24 12 h8 l10 40 z" fill="#334155"/>
+    <path d="M27.5 16 h1 l-1.2 8 h-1.6 z M26 28 h1 l-1 8 h-1.4 z M24.6 40 h1 l-1 8 h-1.2 z" fill="url(#skyw)"/>
+    <circle cx="28" cy="14" r="3.2" fill="#0ea5e9"/>
+  </g>
+  <text x="64" y="30" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#ffffff">SEAL PRO</text>
+  <text x="64" y="48" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="12" letter-spacing="1.5" fill="#87CEEB">PAVING &amp; SEALCOATING</text>
+</svg>

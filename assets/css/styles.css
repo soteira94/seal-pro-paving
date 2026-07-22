@@ -420,6 +420,28 @@ section { position: relative; }
 .wa-float:hover { color: #fff; transform: scale(1.08); }
 .wa-float svg { width: 32px; height: 32px; }
 
+/* ---------- Galería "Nuestro Trabajo" ---------- */
+.work-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.work-item {
+  position: relative; border-radius: var(--radius); overflow: hidden; background: var(--dark-2);
+  aspect-ratio: 4/3; box-shadow: var(--shadow); cursor: pointer;
+}
+.work-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s cubic-bezier(.16,1,.3,1); }
+.work-item:hover img { transform: scale(1.07); }
+.work-item .tag {
+  position: absolute; left: 10px; bottom: 10px; z-index: 2;
+  background: rgba(7,11,19,.78); color: #fff; font-size: .72rem; font-weight: 700;
+  padding: 4px 10px; border-radius: 20px; letter-spacing: .4px;
+  border-left: 3px solid var(--brand);
+}
+.work-item::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 55%, rgba(7,11,19,.45) 100%);
+}
+.work-item--tall { grid-row: span 2; aspect-ratio: auto; }
+@media (max-width: 980px) { .work-gallery { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px) { .work-gallery { grid-template-columns: repeat(2, 1fr); gap: 10px; } }
+
 /* Logo dentro del banner hero (lado derecho) */
 .hero__logo {
   display: block; width: min(330px, 82%); height: auto; margin: 0 auto 22px;

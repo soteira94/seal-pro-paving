@@ -173,6 +173,7 @@ window.SEALPRO_I18N = {
     'work.t.striping': 'Demarcación',
     'work.t.concrete': 'Concreto',
     'work.t.commercial': 'Comercial',
+    'clients.label': 'Empresas que confían en nosotros',
 
     /* Página Contacto */
     'contactPage.title': 'Contáctanos',
@@ -377,6 +378,7 @@ window.SEALPRO_I18N = {
     'work.t.striping': 'Line striping',
     'work.t.concrete': 'Concrete',
     'work.t.commercial': 'Commercial',
+    'clients.label': 'Businesses that trust us',
 
     'contactPage.title': 'Contact Us',
     'contactPage.subtitle': 'Complete the form and we will contact you within 24 hours with a personalized quote at no obligation.',

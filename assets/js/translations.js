@@ -17,6 +17,7 @@ window.SEALPRO_I18N = {
     'nav.services': 'Servicios',
     'nav.about': 'Nosotros',
     'nav.contact': 'Contacto',
+    'nav.blog': 'Blog',
     'nav.quote': 'Cotización gratis',
 
     /* Hero (inicio) */
@@ -174,6 +175,10 @@ window.SEALPRO_I18N = {
     'work.t.concrete': 'Concreto',
     'work.t.commercial': 'Comercial',
     'clients.label': 'Empresas que confían en nosotros',
+    'blog.title': 'Consejos de pavimentación e historias de proyectos',
+    'blog.subtitle': 'Consejos prácticos sobre pavimentación, sellado, demarcación y concreto — además de proyectos reales e historias de clientes en Delaware.',
+    'blog.read': 'Leer artículo →',
+    'blog.more': 'Más del blog',
 
     /* Página Contacto */
     'contactPage.title': 'Contáctanos',
@@ -232,6 +237,7 @@ window.SEALPRO_I18N = {
     'nav.services': 'Services',
     'nav.about': 'About Us',
     'nav.contact': 'Contact',
+    'nav.blog': 'Blog',
     'nav.quote': 'Free Quote',
 
     'hero.badge': '★ The #1 choice in Delaware · 25+ years',
@@ -379,6 +385,10 @@ window.SEALPRO_I18N = {
     'work.t.concrete': 'Concrete',
     'work.t.commercial': 'Commercial',
     'clients.label': 'Businesses that trust us',
+    'blog.title': 'Paving Tips & Project Stories',
+    'blog.subtitle': 'Practical advice on paving, sealcoating, striping and concrete — plus real projects and customer stories from across Delaware.',
+    'blog.read': 'Read article →',
+    'blog.more': 'More from the blog',
 
     'contactPage.title': 'Contact Us',
     'contactPage.subtitle': 'Complete the form and we will contact you within 24 hours with a personalized quote at no obligation.',

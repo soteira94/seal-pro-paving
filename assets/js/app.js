@@ -147,6 +147,36 @@
     });
   }
 
+
+  /* ---------- Testimonios animados (resenas de Google) ---------- */
+  function initAtst() {
+    var root = document.getElementById('atst');
+    if (!root) return;
+    var imgs = root.querySelectorAll('.atst__img');
+    var slides = root.querySelectorAll('.atst__slide');
+    var n = slides.length, idx = 0, timer = null;
+    var delay = parseInt(root.getAttribute('data-autoplay'), 10) || 6500;
+    function paint() {
+      for (var i = 0; i < n; i++) {
+        imgs[i].className = 'atst__img';
+        slides[i].classList.remove('is-active');
+      }
+      imgs[idx].className = 'atst__img is-active';
+      imgs[(idx + 1) % n].className = 'atst__img is-next';
+      imgs[(idx - 1 + n) % n].className = 'atst__img is-prev';
+      slides[idx].classList.add('is-active');
+    }
+    function go(step) { idx = (idx + step + n) % n; paint(); }
+    function play() { stop(); timer = setInterval(function () { go(1); }, delay); }
+    function stop() { if (timer) clearInterval(timer); }
+    var prev = document.getElementById('atstPrev'), next = document.getElementById('atstNext');
+    if (prev) prev.addEventListener('click', function () { go(-1); play(); });
+    if (next) next.addEventListener('click', function () { go(1); play(); });
+    root.addEventListener('mouseenter', stop);
+    root.addEventListener('mouseleave', play);
+    paint(); play();
+  }
+
   /* ---------- Año dinámico ---------- */
   function initYear() {
     var y = document.querySelector('[data-year]');
@@ -160,6 +190,7 @@
     initReveal();
     initCounters();
     initSlideshow();
+    initAtst();
     initYear();
   });
 })();

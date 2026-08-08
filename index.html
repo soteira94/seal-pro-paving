@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=15">
+  <link rel="stylesheet" href="assets/css/styles.css?v=16">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -297,26 +297,65 @@
       <div class="section-head text-center reveal">
         <span class="eyebrow" data-i18n="tst.eyebrow">Testimonios</span>
         <h2 class="section-title" data-i18n="tst.title">Lo que dicen nuestros clientes</h2>
-        <p class="section-subtitle" data-i18n="tst.subtitle">Cientos de propietarios en Delaware confían en Seal Pro para sus proyectos de pavimentación.</p>
+        <a class="gbadge" href="https://maps.app.goo.gl/k7fivbgMW7P7HzdW8" target="_blank" rel="noopener" aria-label="Google Reviews">
+          <span class="gbadge__logo">G</span><strong>5.0</strong><span class="gbadge__stars">★★★★★</span><span data-i18n="tst.gcount">19 reviews on Google</span>
+        </a>
       </div>
-      <div class="tst-grid">
-        <article class="tst-card reveal">
-          <div class="tst-card__stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
-          <p class="tst-card__quote" data-i18n="tst.1.q">"El mejor equipo con el que he trabajado…"</p>
-          <div class="tst-card__author"><div class="tst-card__avatar">M</div><div><div class="tst-card__name" data-i18n="tst.1.n">Michael R.</div><div class="tst-card__loc" data-i18n="tst.1.l">Wilmington, DE</div></div></div>
-        </article>
-        <article class="tst-card reveal">
-          <div class="tst-card__stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
-          <p class="tst-card__quote" data-i18n="tst.2.q">"Repavimentaron el estacionamiento de nuestro negocio…"</p>
-          <div class="tst-card__author"><div class="tst-card__avatar">S</div><div><div class="tst-card__name" data-i18n="tst.2.n">Sandra P.</div><div class="tst-card__loc" data-i18n="tst.2.l">Newark, DE</div></div></div>
-        </article>
-        <article class="tst-card reveal">
-          <div class="tst-card__stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
-          <p class="tst-card__quote" data-i18n="tst.3.q">"Atención personalizada de principio a fin…"</p>
-          <div class="tst-card__author"><div class="tst-card__avatar">J</div><div><div class="tst-card__name" data-i18n="tst.3.n">James T.</div><div class="tst-card__loc" data-i18n="tst.3.l">Dover, DE</div></div></div>
-        </article>
+      <div class="atst reveal" id="atst" data-autoplay="6500">
+        <div class="atst__imgs">
+          <div class="atst__img is-active" style="background-image:url('assets/img/work-driveway-gray.jpg')" aria-hidden="true"></div>
+          <div class="atst__img" style="background-image:url('assets/img/fb-patio-concreto.jpg')" aria-hidden="true"></div>
+          <div class="atst__img" style="background-image:url('assets/img/fb-camino-curvo.jpg')" aria-hidden="true"></div>
+          <div class="atst__img" style="background-image:url('assets/img/fb-casa-grande.jpg')" aria-hidden="true"></div>
+          <div class="atst__img" style="background-image:url('assets/img/work-concrete-walk.jpg')" aria-hidden="true"></div>
+          <div class="atst__img" style="background-image:url('assets/img/work-prep-excavation.jpg')" aria-hidden="true"></div>
+        </div>
+        <div class="atst__content">
+          <figure class="atst__slide is-active">
+            <blockquote data-i18n="gt.1.q">Seal Pro did an outstanding job sealcoating my driveway! From start to finish, they were professional, punctual, and clearly took pride in their work… The end result looks amazing, like a brand-new driveway. I'll definitely be using them again!</blockquote>
+            <figcaption><strong>Kimberly Blackwell</strong><span data-i18n="gt.1.d">Driveway sealcoating · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <figure class="atst__slide">
+            <blockquote data-i18n="gt.2.q">Tony and his team recently installed a new patio for me, and I couldn't be more pleased with the results. Even my neighbors commented on how professional and friendly the crew was. I would absolutely hire them again!</blockquote>
+            <figcaption><strong>Jacqueline Jenkins</strong><span data-i18n="gt.2.d">New patio installation · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <figure class="atst__slide">
+            <blockquote data-i18n="gt.3.q">Seal Pro Paving did an excellent job on my driveway and restored it to a wonderful appearance — even where tree roots were lifting and cracking the original asphalt. Be sure to talk to Tony for an amazing and professional outcome!</blockquote>
+            <figcaption><strong>Maureen Flihse</strong><span data-i18n="gt.3.d">Driveway restoration · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <figure class="atst__slide">
+            <blockquote data-i18n="gt.4.q">Tony's crew did an excellent job. They were professional, hardworking and conscientious about their workmanship. Their work was neat, the edges look good. I will use them again and would recommend them to anyone looking for a good sealcoat.</blockquote>
+            <figcaption><strong>Robert August</strong><span data-i18n="gt.4.d">Sealcoating · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <figure class="atst__slide">
+            <blockquote data-i18n="gt.5.q">Tony and the Seal Pro team did a great job sealing our driveway, being extra careful along the edges of my garden. We also had them redo our front steps that were settling — they removed the old steps and repoured new ones. They came out great!</blockquote>
+            <figcaption><strong>Marcia Stephenson</strong><span data-i18n="gt.5.d">Sealcoating & concrete steps · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <figure class="atst__slide">
+            <blockquote data-i18n="gt.6.q">We had work done twice by Tony and his crew — they came out to level the backyard for our pool. They did a wonderful job and were very communicative, letting us know when things had to change due to weather. It looks really good now!</blockquote>
+            <figcaption><strong>Jennifer Graham</strong><span data-i18n="gt.6.d">Backyard grading · Google Review</span>
+              <span class="atst__stars" aria-label="5 stars">★★★★★</span></figcaption>
+          </figure>
+          <div class="atst__nav">
+            <button class="atst__btn" id="atstPrev" aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button class="atst__btn" id="atstNext" aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
       </div>
-      <p class="text-center" style="margin-top:22px;font-size:.82rem;color:var(--muted)" data-i18n="tst.note">★ Nota: testimonios de ejemplo — reemplázalos por reseñas reales de tus clientes.</p>
+    </div>
+  </section>
+
+  <!-- ===== Botón del blog ===== -->
+  <section class="section--tight blogcta">
+    <div class="container text-center">
+      <span class="eyebrow">Blog</span>
+      <h2 class="section-title" style="font-size:1.6rem" data-i18n="home.blog.t">Consejos, casos reales y más en nuestro blog</h2>
+      <a href="blog.html" class="btn btn--primary btn--lg" style="margin-top:14px" data-i18n="home.blog.btn">Visitar el blog →</a>
     </div>
   </section>
 
@@ -411,7 +450,7 @@
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.4.1-.6l.5-.5c.1-.2.2-.3.3-.5s0-.4 0-.5l-1-2.3c-.2-.6-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3 2.5 1 3 .8 3.5.8s1.7-.7 2-1.4c.2-.7.2-1.2.1-1.4 0-.1-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
   </a>
 
-  <script src="assets/js/translations.js?v=15"></script>
-  <script src="assets/js/app.js?v=7"></script>
+  <script src="assets/js/translations.js?v=16"></script>
+  <script src="assets/js/app.js?v=16"></script>
 </body>
 </html>
